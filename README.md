@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+# Gemini App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repository contains the mobile application Gemini, developed with React Native and Expo.
 
-## Get started
+## Description
 
-1. Install dependencies
+The Gemini application uses a WebView to display the content of the [Gemini](https://gemini.google.com) website. It is designed to provide a seamless and integrated user experience on mobile devices.
 
-   ```bash
-   npm install
-   ```
+**Note:** This application is for educational purposes only and is not the official Gemini application.
 
-2. Start the app
+## Features
 
-   ```bash
-    npx expo start
-   ```
+- **WebView Integration**: Embeds a WebView to display the web content of Gemini.
+- **Expo Compatibility**: Utilizes Expo for easy development and deployment.
+- **Status Bar Customization**: Customizes the status bar using Expo.
 
-In the output, you'll find options to open the app in a
+## Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+To install and run the application, follow these steps:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/enocben/gemini-app.git
+    ```
 
-## Get a fresh project
+2. Navigate to the project directory:
+    ```bash
+    cd gemini-app
+    ```
 
-When you're ready, run:
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+    or
+    ```bash
+    yarn install
+    ```
 
-```bash
-npm run reset-project
-```
+4. Start the application:
+    ```bash
+    expo start
+    ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Project Structure
 
-## Learn more
+- `app/index.tsx`: Main entry point of the application, containing the primary component that integrates the WebView and the status bar.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Contribution
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Contributions are welcome! If you would like to contribute, please follow these steps:
 
-## Join the community
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
+3. Make your changes and commit them:
+    ```bash
+    git commit -m 'Add new feature'
+    ```
+4. Push the changes to your fork:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+5. Create a Pull Request.
 
-Join our community of developers creating universal apps.
+## License
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Authors
+
+- [enocben](https://github.com/enocben)
